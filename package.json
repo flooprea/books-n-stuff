@@ -1,0 +1,24 @@
+{
+  "name": "booksnstuff",
+  "version": "1.0.0",
+  "description": "Testing Babel on books-n-stuff",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "babel project-transpilation -d lib"
+},
+  "repository": {
+    "type": "git",
+    "url": "github.com/flooprea/books-n-stuff"
+  },
+  "keywords": [
+    "test",
+    "babel"
+  ],
+  "author": "flooprea",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

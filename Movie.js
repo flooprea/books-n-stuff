@@ -1,6 +1,6 @@
 class Movie extends Media {
-    constructor(title, director, runTime) {
-        super(title);
+    constructor(title, type,  director, runTime) {
+        super(title, type);
         this._director = director;
         this._runtTime = runTime;
     }

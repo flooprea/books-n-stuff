@@ -26,7 +26,11 @@ class Media {
         this._isCheckedOut = arg;
     }
 
-    toggleCheckOutStatus = () => {
+    toggleCheckOutStatus() {
+        //testing babel
+        let biscuits = 'this is ES6 sintax';
+        const mti  = 'this is ES6 sintax';
+
         if (this._isCheckedOut === true) {
             this._isCheckedOut = false;
         } else if (this._isCheckedOut === false){
@@ -34,7 +38,7 @@ class Media {
         }
     }
 
-    getAverageRating= () => {
+    getAverageRating()  {
         const reducer = (acc, curVal) => acc + curVal;
         return Math.round((this._ratings.reduce(reducer) / this._ratings.length) * 10) / 10;
     }

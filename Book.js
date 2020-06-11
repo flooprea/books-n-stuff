@@ -1,7 +1,7 @@
 class Book extends Media {
     
-    constructor(title, author, pages){
-        super(title);
+    constructor(title, type, author, pages){
+        super(title, type);
         this._author = author;
         this._pages = pages;
     }
